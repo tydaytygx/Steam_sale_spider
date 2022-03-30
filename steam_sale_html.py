@@ -175,62 +175,62 @@ def Output():
         for v in range(len(discount_name)):
 
             if '/' in discount_name[v]:
-                urllib.request.urlretrieve(discount_img[v], 'img\%s.jpg' % discount_name[v].replace(
+                urllib.request.urlretrieve(discount_img[v], 'img/%s.jpg' % discount_name[v].replace(
                     '/', ''))  # When using urlretrieve, the : makes files can't be save completely
-                print(r'<div><p class="hover_check hover_check:hover"><img src="img\%s.jpg" class="multiimage 3d_show"/ > </div></p>' %
+                print(r'<div><p class="hover_check hover_check:hover"><img src="img/%s.jpg" class="multiimage 3d_show"/ > </div></p>' %
                       discount_name[v].replace('/', ''), file=f3)
 
             elif '/' in discount_name[v] and ':' in discount_name[v]:
-                urllib.request.urlretrieve(discount_img[v], 'img\%s.jpg' % discount_name[v].replace(
+                urllib.request.urlretrieve(discount_img[v], 'img/%s.jpg' % discount_name[v].replace(
                     '/', ''))  # When using urlretrieve, the : makes files can't be save completely
-                print(r'<div><p class="hover_check hover_check:hover"><img src="img\%s.jpg" class="multiimage 3d_show"/ > </div></p>' %
+                print(r'<div><p class="hover_check hover_check:hover"><img src="img/%s.jpg" class="multiimage 3d_show"/ > </div></p>' %
                       discount_name[v].replace('/', ''), file=f3)
 
             elif ':' in discount_name[v]:
-                urllib.request.urlretrieve(discount_img[v], 'img\%s.jpg' % discount_name[v].replace(
+                urllib.request.urlretrieve(discount_img[v], 'img/%s.jpg' % discount_name[v].replace(
                     ':', ''))  # When using urlretrieve, the : makes files can't be save completely
-                print(r'<div><p class="hover_check hover_check:hover"><img src="img\%s.jpg" class="multiimage 3d_show"/ > </div></p>' %
+                print(r'<div><p class="hover_check hover_check:hover"><img src="img/%s.jpg" class="multiimage 3d_show"/ > </div></p>' %
                       discount_name[v].replace(':', ''), file=f3)
             elif '|' in discount_name[v]:
-                urllib.request.urlretrieve(discount_img[v], 'img\%s.jpg' % discount_name[v].replace(
+                urllib.request.urlretrieve(discount_img[v], 'img/%s.jpg' % discount_name[v].replace(
                     '|', ''))  # When using urlretrieve, the | makes files can't be save completely
-                print(r'<div><p class="hover_check hover_check:hover"><img src="img\%s.jpg" class="multiimage 3d_show"/ > </div></p>' %
+                print(r'<div><p class="hover_check hover_check:hover"><img src="img/%s.jpg" class="multiimage 3d_show"/ > </div></p>' %
                       discount_name[v].replace('|', ''), file=f3)
 
             elif '?' in discount_name[v]:
-                urllib.request.urlretrieve(discount_img[v], 'img\%s.jpg' % discount_name[v].replace(
+                urllib.request.urlretrieve(discount_img[v], 'img/%s.jpg' % discount_name[v].replace(
                     '?', ''))  # When using urlretrieve, the | makes files can't be save completely
-                print(r'<div><p class="hover_check hover_check:hover"><img src="img\%s.jpg" class="multiimage 3d_show"/ > </div></p>' %
+                print(r'<div><p class="hover_check hover_check:hover"><img src="img/%s.jpg" class="multiimage 3d_show"/ > </div></p>' %
                       discount_name[v].replace('|', ''), file=f3)
 
             elif ',' in discount_name[v]:
-                urllib.request.urlretrieve(discount_img[v], 'img\%s.jpg' % discount_name[v].replace(
+                urllib.request.urlretrieve(discount_img[v], 'img/%s.jpg' % discount_name[v].replace(
                     ',', ''))  # When using urlretrieve, the | makes files can't be save completely
-                print(r'<div><p class="hover_check hover_check:hover"><img src="img\%s.jpg" class="multiimage 3d_show"/ > </div></p>' %
+                print(r'<div><p class="hover_check hover_check:hover"><img src="img/%s.jpg" class="multiimage 3d_show"/ > </div></p>' %
                       discount_name[v].replace('|', ''), file=f3)
 
             elif '@' in discount_name[v]:
-                urllib.request.urlretrieve(discount_img[v], 'img\%s.jpg' % discount_name[v].replace(
+                urllib.request.urlretrieve(discount_img[v], 'img/%s.jpg' % discount_name[v].replace(
                     '@', ''))  # When using urlretrieve, the | makes files can't be save completely
-                print(r'<div><p class="hover_check hover_check:hover"><img src="img\%s.jpg" class="multiimage 3d_show"/ > </div></p>' %
+                print(r'<div><p class="hover_check hover_check:hover"><img src="img/%s.jpg" class="multiimage 3d_show"/ > </div></p>' %
                       discount_name[v].replace('@', ''), file=f3)
 
             elif '&amp' in discount_name[v]:
-                urllib.request.urlretrieve(discount_img[v], 'img\%s.jpg' % discount_name[v].replace(
+                urllib.request.urlretrieve(discount_img[v], 'img/%s.jpg' % discount_name[v].replace(
                     '&amp', ''))  # When using urlretrieve, the | makes files can't be save completely
-                print(r'<div><p class="hover_check hover_check:hover"><img src="img\%s.jpg" class="multiimage 3d_show"/ > </div></p>' %
+                print(r'<div><p class="hover_check hover_check:hover"><img src="img/%s.jpg" class="multiimage 3d_show"/ > </div></p>' %
                       discount_name[v].replace('&amp', ''), file=f3)
 
             elif '*' in discount_name[v] in discount_name[v]:
-                urllib.request.urlretrieve(discount_img[v], 'img\%s.jpg' % discount_name[v].replace(
+                urllib.request.urlretrieve(discount_img[v], 'img/%s.jpg' % discount_name[v].replace(
                     '*', ''))  # When using urlretrieve, the : makes files can't be save completely
-                print(r'<div><p class="hover_check hover_check:hover"><img src="img\%s.jpg" class="multiimage 3d_show"/ > </div></p>' %
+                print(r'<div><p class="hover_check hover_check:hover"><img src="img/%s.jpg" class="multiimage 3d_show"/ > </div></p>' %
                       discount_name[v].replace('/', ''), file=f3)
 
             else:
                 urllib.request.urlretrieve(
-                    discount_img[v], 'img\%s.jpg' % discount_name[v])
-                print(r'<div><p class="hover_check hover_check:hover"><img src="img\%s.jpg" class="multiimage 3d_show"/ > </div></p>' %
+                    discount_img[v], 'img/%s.jpg' % discount_name[v])
+                print(r'<div><p class="hover_check hover_check:hover"><img src="img/%s.jpg" class="multiimage 3d_show"/ > </div></p>' %
                       discount_name[v], file=f3)
 
             print('# ' + discount_name[v], file=f3)
@@ -250,7 +250,7 @@ def Output():
 
 
 if __name__ == '__main__':
-    createFile(os.getcwd() + '\img')
+    createFile(os.getcwd() + '/img')
     File_Checker()
     Steam_Spider()
     Output()
