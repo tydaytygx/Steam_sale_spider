@@ -21,4 +21,5 @@ Run the steam_sale_html.exe
 
 Or try the unbinary version
 > pip3/pip install requests
+
 > python steam_sale_html.py
